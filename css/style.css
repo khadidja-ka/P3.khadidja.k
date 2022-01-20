@@ -36,3 +36,10 @@ header {
   background-color: rgb(235, 235, 235);
   text-align: center;
 }
+
+button {
+  color: white;
+  font-size: 15px;
+  background: linear-gradient(rgb(214, 71, 214), white);
+  border-radius: 10px;
+}
