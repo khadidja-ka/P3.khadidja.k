@@ -30,15 +30,24 @@ body {
     animation: spinnerOne 1.2s linear infinite;
 }
 
-.spinner div:nth-child(2){
+.spinner div:nth-child(2) {
     border: 8px solid transparent;
     border-bottom-color: #ad60f5;
 }
 
 @keyframes spinnerOne {
-    0% { transform: rotate(0deg); border-width:10px;}
-    50% { transform: rotate(180deg); border-width: 1px;}
-    100% { transform: rotate(360deg); border-width: 10px;}
+    0% {
+        transform: rotate(0deg);
+        border-width: 10px;
+    }
+    50% {
+        transform: rotate(180deg);
+        border-width: 1px;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-width: 10px;
+    }
 }
 /* HEADER */
 
